@@ -1,5 +1,0 @@
-```lua
-
-local Players = game:GetService("Players")
-
-```
