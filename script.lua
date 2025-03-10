@@ -7,7 +7,7 @@ Players.PlayerAdded:Connect(function(player)
 end)
 
 
-Players.PlayerRemoved:Connect(function(player)
+Players.PlayerRemoving:Connect(function(player)
     plrs[player.Name] = nil
 end)
 
