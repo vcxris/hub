@@ -12,8 +12,11 @@ Players.PlayerRemoved:Connect(function(player)
 end)
 
 task.spawn(function()
-    while getgenv().Print do
+    while true do
         task.wait(1)
+        if not getgenv().Printa then
+            break
+        end
         for i,v in plrs do
             print(i)
         end
